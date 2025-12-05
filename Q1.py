@@ -21,8 +21,6 @@ class HashJoiner:
         print("\n")
 
     def executeJoin(self):
-        print("Step 1: Building Hash Map on R2")
-
         hashmap = collections.defaultdict(list)
 
         for row in self.R2:
@@ -31,7 +29,6 @@ class HashJoiner:
 
         print(f"Hash Map Keys Created: {list(hashmap.keys())}")
 
-        print("\nStep 2: Probing Hash Map with R1")
         results = []
 
         for row in self.R1:
