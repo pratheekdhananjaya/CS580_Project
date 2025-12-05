@@ -83,5 +83,5 @@ if __name__ == "__main__":
     solver.loadVerificationData()
     final_output = solver.execute()
 
-    print("\n>>> Final Result (A1...Ak):")
+    print("\nFinal Result (A1...Ak):")
     print(final_output)
