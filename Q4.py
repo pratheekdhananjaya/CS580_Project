@@ -98,6 +98,9 @@ class ExperimentRunner:
         problem2Set = set(resultProblem2)
         problem3Set = set(resultProblem3)
 
+        print("\nProblem 2 Implementation (Yannakakis) Output: ", problem2Set)
+        print("\nProblem 3 Implementation (Naive) Output: ", problem3Set)
+
         if problem2Set == problem3Set:
             print("\nBoth algorithms returned the same result set.")
         else:

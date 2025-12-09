@@ -116,6 +116,9 @@ class ExperimentRunner:
         print(f"Naive Time (Problem 3): {finalTimeProblem3:.4f} ms")
         print(f"Result Size: {len(resultProblem3)}")
 
+        print("\nProblem 2 Implementation (Yannakakis) Output: ", resultProblem2)
+        print("\nProblem 3 Implementation (Naive) Output: ", resultProblem3)
+
         if set(resultProblem2) == set(resultProblem3):
             print("\nBoth algorithms returned the same result set.")
         else:
